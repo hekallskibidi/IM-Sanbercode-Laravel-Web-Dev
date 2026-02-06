@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-    <style>
-        body { font-family: Arial; text-align: center; padding: 50px; background: #f0f0f0; }
-        a { padding: 15px 30px; background: blue; color: white; text-decoration: none; border-radius: 5px; }
-    </style>
-</head>
-<body>
-    <h1>Selamat Datang di Inventory App</h1>
-    <a href="/register">Daftar Sekarang</a>
-</body>
-</html>
+@extends('layouts.admin')
+
+@section('title', 'Test')
+
+@section('content')
+    <div style="text-align: center; margin-top: 100px;">
+        <h1 style="color: green; font-size: 60px;">LAYOUT ADMIN BERHASIL!</h1>
+        <p>Kalau sidebar kiri muncul atau background berubah, sukses.</p>
+        <p>Kalau masih polos, asset CSS ga load.</p>
+    </div>
+@endsection
